@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests
         run: |
-          cd ci-cd-project
+          cd 04-project
           pytest tests/ -v
 
   build:
